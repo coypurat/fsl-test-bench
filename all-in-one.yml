@@ -73,7 +73,8 @@
     - include: tasks/helpers/linfo.yml
     - include: tasks/helpers/phpmyadmin.yml
     - include: tasks/helpers/phpldapadmin.yml
-    - include: tasks/helpers/phpliteadmin.yml
+# not present in github archive
+#    - include: tasks/helpers/phpliteadmin.yml
 #    - include: tasks/helpers/phpmoadmin.yml
 # Common Gateway Interface (CGI)
 ################################################################################

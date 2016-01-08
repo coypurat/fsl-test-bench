@@ -8,7 +8,8 @@
 ---
 # User settings
 language: en_US.UTF-8
-keyboard: sg-latin1
+#keyboard: sg-latin1
+keyboard: us-latin1
 timezone: Europe/Zurich
 
 # Name of the virtual machine
@@ -30,8 +31,9 @@ size: 8
 mac: '52:52:00:00:00:01'
 
 # Mirror to use.
-mirror: http://mirror.switch.ch/ftp/mirror/fedora/linux/releases/20/Fedora/x86_64/os/
-
+#mirror: http://mirror.switch.ch/ftp/mirror/fedora/linux/releases/20/Fedora/x86_64/os/
+mirror: https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/20/Fedora/x86_64/os/
+ 
 # Time in minutes to wait for the virtual machine
 wait_time: 10
 
